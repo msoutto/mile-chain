@@ -1,0 +1,32 @@
+{
+  "name": "mile-chain",
+  "version": "1.0.0",
+  "description": "MileChain is an RWA protocol for managing miles and loyalty points as tokens. This way we give real ownership over these assets to the owners, where they don't need to get through any intermediary to transfer, sell, or buy them.",
+  "main": "main.tsx",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msoutto/mile-chain.git"
+  },
+  "keywords": [
+    "RWA",
+    "miles",
+    "token",
+    "solidity"
+  ],
+  "author": "msoutto",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/msoutto/mile-chain/issues"
+  },
+  "homepage": "https://github.com/msoutto/mile-chain#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^6.1.0",
+    "hardhat": "^2.26.0"
+  }
+}
