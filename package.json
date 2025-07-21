@@ -7,7 +7,10 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx hardhat test",
+    "compile": "npx hardhat compile",
+    "deploy:local": "npx hardhat run scripts/deployAllTokens.ts --network localhost",
+    "deploy:test": "npx hardhat run scripts/deployAllTokens.ts --network sepolia"
   },
   "repository": {
     "type": "git",
@@ -28,6 +31,7 @@
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^6.1.0",
     "@openzeppelin/contracts": "^5.4.0",
+    "dotenv": "^17.2.0",
     "hardhat": "^2.26.0"
   }
 }
