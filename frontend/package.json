@@ -1,0 +1,45 @@
+{
+  "name": "mile-chain-manager",
+  "version": "1.0.0",
+  "description": "UI for managing the MileChainTokens",
+  "main": "main.tsx",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msoutto/mile-chain.git"
+  },
+  "keywords": [
+    "RWA",
+    "miles",
+    "token",
+    "solidity"
+  ],
+  "author": "msoutto",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/msoutto/mile-chain/issues"
+  },
+  "homepage": "https://github.com/msoutto/mile-chain#readme",
+  "dependencies": {
+    "@ethersproject/providers": "^5.8.0",
+    "@metamask/providers": "^22.1.0",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "vite": "^7.0.5"
+  },
+  "devDependencies": {
+    "@types/chai": "^5.2.2",
+    "@types/node": "^24.0.15",
+    "chai": "^5.2.1",
+    "dotenv": "^17.2.0",
+    "ethers": "^6.15.0",
+    "vitest": "^3.2.4"
+  }
+}
